@@ -16,8 +16,8 @@ menu:
           url: projects/
           weight: 1
         - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+          url: blog/
+          weight: 2
 
 params:
     description: "This website hosts Yue Jiakai's portfolio."
@@ -35,7 +35,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["projects", "blog"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -46,17 +46,16 @@ params:
     profileMode:
           enabled: true
           title: Yue Jiakai
-          subtitle: "I am a J2 student in Hwa Chong Insitution who loves to make things and figure out what life's about"
+          subtitle: "I am a J2 student in Hwa Chong Insitution who loves to make things and figuring out what life's about"
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
             - name: Projects
               url: projects/
+            - name: Blog
+              url: blog/
+
 
 
     socialIcons:
